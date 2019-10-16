@@ -27,7 +27,7 @@ class _JogoState extends State<Jogo> {
 
      if(
           (_escolhaJogador == 'pedra' && _escolhaApp == 'tesoura') ||
-          (_escolhaJogador == 'terousa' && _escolhaApp == 'papel') ||
+          (_escolhaJogador == 'tesoura' && _escolhaApp == 'papel') ||
           (_escolhaJogador == 'papel' && _escolhaApp == 'pedra')
      ){
        setState(() {
